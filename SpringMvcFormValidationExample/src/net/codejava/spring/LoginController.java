@@ -28,6 +28,7 @@ public class LoginController {
 		}
 		
 		System.out.println("User email is " + user.getEmail());
+		System.out.println("Example");
 		return "LoginSuccess";
 	}
 	
